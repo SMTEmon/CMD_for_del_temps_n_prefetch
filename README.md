@@ -1,1 +1,0 @@
-# CMD_for_del_temps_n_prefetch
