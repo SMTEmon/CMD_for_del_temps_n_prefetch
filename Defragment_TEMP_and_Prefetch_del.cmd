@@ -18,6 +18,11 @@ cd /D C:\Windows\Temp
 del /f /q *.*
 cd /D C:\Users\SMTEmon\AppData\Local\Temp
 del /f /q *.*
+
+:: Defragment the system disk (C:)
+echo Defragmenting the system disk...
+defrag C: /O
+
 goto :EOF
 
 :UACPrompt
