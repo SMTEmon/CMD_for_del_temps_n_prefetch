@@ -8,7 +8,7 @@ if %errorLevel% neq 0 (
     echo Running with administrative privileges.
 )
 
-:: Your existing cleanup script starts here
+::
 cd /D %temp%
 for /d %%D in (*) do rd /s /q "%%D"
 del /f /q *.*
